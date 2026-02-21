@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-surface-light text-zinc-900 transition-colors duration-300 dark:bg-surface-dark dark:text-zinc-100;
+}
